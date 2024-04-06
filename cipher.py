@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # User Promted to enter a message and a shift key number which is only accepted as an integer
 
 UserInputMessage = input("Please input a message:")
@@ -48,6 +47,3 @@ print(ShiftedAlphabet)
 print('Shift Key Requested:', UserInputShiftAmount)
 print("Original Message:", UserInputMessage)
 print("Encrypted Message:", ''.join(EncryptedMessage))
-=======
-# enter your code here
->>>>>>> 0d1abdd95d987599775c0a9f9c7783cb198d1696
