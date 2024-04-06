@@ -1,10 +1,10 @@
 # User Promted to enter a message and a shift key number which is only accepted as an integer
 
 UserInputMessage = input("Please input a message:")
-
+UserInputShiftAmount = 0
 ### Uncomment the following to allow the program to ask for a shift amount
 ### This allows someone to easily create a changing cipher 
-# UserInputMessage = UserInputMessage.lower()
+#UserInputMessage = UserInputMessage.lower()
 #while True:
 #    try:
 #        UserInputShiftAmount = int(input("Please input shift key#: "))
@@ -16,15 +16,13 @@ UserInputMessage = input("Please input a message:")
 #        print("Error: Please enter a valid integer for the shift key.")
 
 
-
-
 # Initialize some variables and import a string function to be able to pull in the alphabet
 import string
 StandardAlphabet=(string.ascii_lowercase)
 ListAlphabet=[]
 ShiftedAlphabet=[]
 EncryptedMessage=[]
-UserInputShiftAmount = 0
+
 
 # Default to shift of 5 as assigned unless above code is uncommented
 if UserInputShiftAmount == 0:
